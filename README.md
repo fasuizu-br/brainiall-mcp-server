@@ -2,6 +2,10 @@
 
 MCP server providing AI-powered pronunciation assessment, speech-to-text, and text-to-speech tools via [Brainiall](https://brainiall.com) Speech AI APIs.
 
+<a href="https://glama.ai/mcp/servers/fasuizu-br/brainiall-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/fasuizu-br/brainiall-mcp-server/badge" alt="brainiall-mcp-server MCP server" />
+</a>
+
 ## Tools
 
 | Tool | Description |
