@@ -122,10 +122,7 @@ async def list_voices() -> dict:
     Returns voice IDs, names, supported languages, and sample previews.
     """
     async with _client() as client:
-        response = await client.get(
-            "/v1/tts/voices",
-            headers={"Authorization": f"Bearer {API_KEY}"},
-        )
+        response = await client.get("/v1/tts/voices")
         response.raise_for_status()
         return response.json()
 
