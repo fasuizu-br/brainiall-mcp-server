@@ -27,7 +27,7 @@ if not API_KEY:
 
 mcp = FastMCP(
     "brainiall-speech-ai",
-    description=(
+    instructions=(
         "AI-powered speech tools: pronunciation assessment, "
         "speech-to-text, and text-to-speech by Brainiall."
     ),
