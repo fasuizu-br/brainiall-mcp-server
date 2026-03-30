@@ -30,6 +30,10 @@ docker build -t brainiall-mcp .
 docker run -e BRAINIALL_API_KEY=your-key -p 8000:8000 brainiall-mcp
 ```
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/fasuizu-br-brainiall-mcp-server).
+
 ## Configuration
 
 Set the `BRAINIALL_API_KEY` environment variable:
